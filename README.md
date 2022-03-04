@@ -10,10 +10,19 @@ App is wtritten in Swift 5, followed MVVM, used async/await for API calls and Co
 
 # Charts library to rendar Covid data
 
-Only one third party libary have used as Package Dependency:
-Charts.
+I have implemented Charts library to represent Covid History Data in the graphical manner
 
 Before compile the code just download package dependency.
+
+### CocoaPods
+
+CocoaPods implementated for adding SwiftLint tool. SwiftLint is an open-source tool to enforce Swift style and conventions.
+
+I have used CocoaPods & Package Dependencies both mechenism for adding third party library in this project.
+
+### Data Parsing / API Caller
+
+I have implemented a generic function in the Service class which will work perpectly to call API with async / await mechenism. In this project I have commented out that function as I am not using the generic one because my all APIs are giving huge response and dont need all data to represent so that parsed only required JSON.
 
 
 ## API Reference
