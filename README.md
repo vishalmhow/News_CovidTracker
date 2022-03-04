@@ -4,25 +4,25 @@
 This App will show news headline along with Covid Tracker.
 In the Covid Tracker section we are showing Covid history data and can be filter by particular state.
 
-App is wtritten in Swift 5, followed MVVM, used async/await for API calls and Concurrent operations.
+App is wtritten in Xcode 13.2.1 & Swift 5, followed MVVM, used async/await for API calls & Concurrent operations and NSCache for Image Caching.
 
 # Package Dependencies
 
 # Charts library to rendar Covid data
 
-I have implemented Charts library to represent Covid History Data in the graphical manner
+I have implemented Charts library to represent Covid history data in the graphical manner
 
-Before compile the code just download package dependency.
+Before compiling the code need to download package dependency.
 
 ### CocoaPods
 
 CocoaPods implementated for adding SwiftLint tool. SwiftLint is an open-source tool to enforce Swift style and conventions.
 
-I have used CocoaPods & Package Dependencies both mechenism for adding third party library in this project.
+I have used CocoaPods & Package Dependencies both mechenism for adding third party library in this project. The purpose of using both mechenism to showcase way of using dependencies in the iOS App.
 
 ### Data Parsing / API Caller
 
-I have implemented a generic function in the Service class which will work perpectly to call API with async / await mechenism. In this project I have commented out that function as I am not using the generic one because my all APIs are giving huge response and dont need all data to represent so that parsed only required JSON.
+I have implemented a generic function in the Service class which will work perpectly to call API with async / await mechenism. However, In this project I have commented out that function as I am not using that function because all the APIs are giving huge response and we don't need all data, we need only some data from that JSON response for this I have writtern customised function to fullfiled the needs.
 
 
 ## API Reference
