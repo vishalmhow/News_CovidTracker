@@ -42,7 +42,7 @@ Before compile the code just download package dependency.
 #### Code Coverage of the News_App:
 
 
-<img src="https://github.com/vishalmhow/News_App/blob/main/CodeCoverage.png" width="1500" height="385" />
+<img src="https://github.com/vishalmhow/News_App/blob/main/Code_Coverage.png" width="1500" height="467" />
 
 
 ## 🚀 About Me
