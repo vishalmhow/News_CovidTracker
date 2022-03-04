@@ -4,7 +4,7 @@
 This App will show news headline along with Covid Tracker.
 In the Covid Tracker section we are showing Covid history data and can be filter by particular state.
 
-App is wtritten in Xcode 13.2.1 & Swift 5, followed MVVM, used async/await for API calls & Concurrent operations and NSCache for Image Caching.
+App is written in Xcode 13.2.1 & Swift 5, followed MVVM, used async/await for API calls & Concurrent operations and NSCache for Image Caching.
 
 # Package Dependencies
 
@@ -22,7 +22,7 @@ I have used CocoaPods & Package Dependencies both mechenism for adding third par
 
 ### Data Parsing / API Caller
 
-I have implemented a generic function in the Service class which will work perpectly to call API with async / await mechenism. However, In this project I have commented out that function as I am not using that function because all the APIs are giving huge response and we don't need all data, we need only some data from that JSON response for this I have writtern customised function to fullfiled the needs.
+I have implemented a generic function in the Service class which will work perpectly to call API with async / await mechenism. However, In this project I have commented out that function as I am not using that function because all the APIs are giving huge response and we don't need all data, we need only some data from that JSON response for this I have written customised function to fullfiled the needs.
 
 
 ## API Reference
