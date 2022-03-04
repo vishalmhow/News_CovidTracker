@@ -8,7 +8,7 @@ App is wtritten in Swift 5, followed MVVM, used async/await for API calls and Co
 
 # Package Dependencies
 
-# Charts library to rendar chart of Covid data
+# Charts library to rendar Covid data
 
 Only one third party libary have used as Package Dependency:
 Charts.
